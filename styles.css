@@ -4,17 +4,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
 
 body {
   background-color: #272343;
+  height: 750px;
 }
 
 header {
   background: #ffffff;
   padding: 20px;
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 header>h1 {
@@ -60,6 +63,9 @@ header>h1 {
 .result {
   font-size: 40px;
   color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 22px;
+  padding-top: 30px;
 }
 
 .result>p {
@@ -114,6 +120,7 @@ header>h1 {
   font-weight: bold;
   font-size: 20px;
   margin-top: 40px;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 .btn-container {
@@ -124,7 +131,7 @@ header>h1 {
 .button {
   padding: 10px 25px;
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 12px;
   text-align: center;
   align-items: center;
   cursor: pointer;
@@ -132,11 +139,62 @@ header>h1 {
   background-color: #272343;
   border: #ffffff 1px solid;
   border-radius: 8px;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 .button:hover {
   cursor: pointer;
-  background: #bae8e8;
+  background: #7c73e6;
   border: none;
   transform: scale(1.2) perspective(1px);
 }
+
+/* typewriter effect
+
+.result {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+
+/* border-right: .15em solid #7c73e6; */
+
+/* The typwriter cursor */
+
+/* white-space: nowrap; */
+
+/* Keeps the content on a single line */
+
+/* margin: 0 auto; */
+
+/* Gives that scrolling effect as the typing happens */
+
+/* letter-spacing: .15em; */
+
+/* Adjust as needed */
+
+/* animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+} */
+
+/* The typing effect */
+
+/* @keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+} */
+
+/* The typewriter cursor effect */
+
+/* 
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: #7c73e6;
+  }
+} */
+
+*
