@@ -9,6 +9,7 @@
 
 ## Demo
 
+<p>Try out<a href = "https://adam20058.github.io/Rock-Paper-Scissors/"> here! </a></p>
 ![](./images/demo.gif)
 
 ## How it Works
@@ -16,7 +17,9 @@
 <div>
   <b>Objective of the game</b><br/>
   <p>It's a zero-sum game where 2 players face-off by choosing one the three possible shapes. And the winner is decided according to a circular hierarchy of the shapes</p>
-  <p>The 3 possible shapes are:</p>
+  </div>
+<div>
+<b>The 3 possible shapes are:</b>
 <ul>
 <li>Rock</li>
 <li>Paper</li>
