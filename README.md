@@ -9,7 +9,7 @@
 
 ## Demo
 
-<p>Try out<a href = "https://adam20058.github.io/Rock-Paper-Scissors/"> here! </a></p>
+Try out<a href = "https://adam20058.github.io/Rock-Paper-Scissors/"> here! </a>
 ![](./images/demo.gif)
 
 ## How it Works
